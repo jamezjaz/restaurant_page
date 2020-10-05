@@ -1,0 +1,26 @@
+{
+  "name": "restaurant_page",
+  "version": "1.0.0",
+  "description": "This is a restaurant landing page",
+  "main": "index.js",
+  "scripts": {
+    "test": "\"\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jamezjaz/restaurant_page.git"
+  },
+  "keywords": [
+    "\"\""
+  ],
+  "author": "Jamezjaz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jamezjaz/restaurant_page/issues"
+  },
+  "homepage": "https://github.com/jamezjaz/restaurant_page#readme",
+  "devDependencies": {
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12"
+  }
+}
