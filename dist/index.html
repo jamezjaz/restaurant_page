@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-secondary">
+    <nav id="nav" class="navbar navbar-expand-lg navbar-light bg-secondary">
         <a class="navbar-brand" href="#">
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQexkyoofAAJU4fK-JliG637NVLcTorSgpNdQ&usqp=CAU" class="rounded-circle w-25" loading="lazy" alt="restaurant logo">
         </a>
@@ -42,16 +42,34 @@
         </div>
       </nav>
     <div id="content">
-        <div class="heading flex d-flex justify-content-end m-3">
-            <h2 class="bg-white font-weight-bold p-2">IYA BASIRA'S KITCHEN</h2>
-        </div>
-        <div class="about-info text-danger font-weight-bold m-3">
-            <h4 class="flex d-flex justify-content-end">This is Iya Basira's kitchen. We are good at what we do.</h4>
-            <h4 class="flex d-flex justify-content-end">We have all kinds of breakfast, lunch, deserts and continental dishes.</h4>
-            <h4 class="flex d-flex justify-content-end">We're here to serve you better. Give us a try; you'll never regret you did</h4>
-        </div>
+      <div class="about">
+        <p class="para"></p>
+      </div>
     </div>
-    <script src="main.js"></script>
+    <div id="main-content" class="about-info flex d-flex text-danger font-weight-bold m-3">
+      <div class="delicacies">
+        <div class="p-4">
+          <img src="https://i.ytimg.com/vi/2C_zofzl0oY/maxresdefault.jpg" class="soup w-25 rounded-circle" loading="lazy" alt="pkra soup">
+          <img src="https://i.ytimg.com/vi/2C_zofzl0oY/maxresdefault.jpg" class="soup w-25 rounded-circle" loading="lazy" alt="pkra soup">
+        </div>
+        <div>
+          <img src="https://i.ytimg.com/vi/2C_zofzl0oY/maxresdefault.jpg" class="soup w-25 rounded-circle" loading="lazy" alt="pkra soup">
+          <img src="https://i.ytimg.com/vi/2C_zofzl0oY/maxresdefault.jpg" class="soup w-25 rounded-circle" loading="lazy" alt="pkra soup">
+        </div>
+      </div>
+      <div>
+        <h2 class="d-flex justify-content-center text-secondary font-weight-bold">Iya Basira's Delicacies</h2>
+        <h4 class="flex d-flex justify-content-center">This is Iya Basira's kitchen. We are good at what we do.</h4>
+        <h4 class="flex d-flex justify-content-center">We have all kinds of breakfast, lunch, deserts and continental dishes.</h4>
+        <h4 class="flex d-flex justify-content-center">We're here to serve you better. Give us a try; you'll never regret you did</h4>
+      </div>
+    </div>
+    <footer id="footer" class="py-4 bg-secondary text-white-50">
+      <div class="container text-center">
+          <small>Copyright &copy; Iya Basira's Kitchen</small>
+      </div>
+    </footer>
+    <script src="./main.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
