@@ -24,7 +24,7 @@ const navBar = (() =>{
                       </a>
                       `;
     home.innerHTML = `
-                      <a class="navbar-brand" href="#">
+                      <a class="navbar-brand" href="index.html">
                         <p>Home</p>
                       </a>
                       `;
