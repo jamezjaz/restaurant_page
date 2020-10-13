@@ -3,6 +3,11 @@
   margin: 0 auto;
 }
 
+nav {
+  position: sticky;
+  top: 0;
+}
+
 .bgimage {
   background-image: url('/images/bg-image.jpg');
   background-repeat: no-repeat;

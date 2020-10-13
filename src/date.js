@@ -1,12 +1,12 @@
 const date = (() =>{
     const content = document.querySelector('#content');
-    const navBar = document.querySelector('#navbar');
+    const home = document.querySelector('.home');
     const dateElement = document.createElement('span');
     const options = { weekday: 'long', month: 'short', day: 'numeric'};
     const today = new Date();
     dateElement.innerHTML = today.toLocaleDateString('en-US', options);
-    dateElement.classList = 'flex d-flex justify-content-end text-dark font-weight-light pt-1';
-    navBar.appendChild(dateElement);
+    dateElement.classList = 'flex d-flex justify-content-end font-weight-light text-white p-1';
+    home.appendChild(dateElement);
 } )();
 
 export default date;
