@@ -1,3 +1,5 @@
+import date from './date';
+
 const navBar = (() =>{
     const content = document.querySelector('#content');
     const nav = document.querySelector('#navbar');
