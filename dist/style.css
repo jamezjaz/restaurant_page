@@ -10,7 +10,9 @@
   height: 50rem;
 }
 
-/* footer {
-    max-width: 1310px;
-    margin: 0 auto;
-} */
+.menu {
+  background-image: url('/images/bg-image2.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+

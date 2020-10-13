@@ -1,5 +1,6 @@
 import navBar from './navbar';
 import footer from './footer';
+import menu from './menu';
 
 const index = (() =>{
   const content = document.querySelector('#content');
@@ -11,7 +12,7 @@ const index = (() =>{
 
   welcomeMsg.innerHTML = `
   <h3>You're welcome to Iya Basira\'s Kitchen...</h3>
-  <p>We warmly serve all kinds of esquisite meals such breakfast, </p>
+  <p>We warmly serve all kinds of exquisite meals such breakfast, </p>
   <p>lunch, dinner and all sorts of continental dishes.</p>
   <p>Have fun!!!</p>
   `;

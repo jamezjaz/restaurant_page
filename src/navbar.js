@@ -19,7 +19,7 @@ const navBar = (() =>{
     contact.setAttribute('id', 'contact');
   
     logo.innerHTML = `
-                      <a class="navbar-brand" href="#">
+                      <a class="navbar-brand" href="index.html">
                         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQexkyoofAAJU4fK-JliG637NVLcTorSgpNdQ&usqp=CAU" class="rounded-circle w-25" loading="lazy" alt="restaurant logo">
                       </a>
                       `;
