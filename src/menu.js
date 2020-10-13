@@ -2,9 +2,13 @@ const menu = (() =>{
   const menus = document.querySelector('#menu');
   const mainMenu = document.querySelector('#main-menu');
   const menuItems = document.createElement('div');
+//   const aboutInfo = document.querySelector('#about-info');
   const home = document.querySelector('.home');
+//   const about = document.querySelector('.about');
   menus.addEventListener('click', () => {
     home.style.display = 'none';
+    // about.style.display = 'none';
+    // aboutInfo.style.display = 'none';
     menuItems.classList.add('menu');
     menuItems.innerHTML = `
                           <div class="flex d-flex-column pl-4">
