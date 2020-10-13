@@ -5,7 +5,7 @@ const date = (() =>{
     const options = { weekday: 'long', month: 'short', day: 'numeric'};
     const today = new Date();
     dateElement.innerHTML = today.toLocaleDateString('en-US', options);
-    dateElement.classList = 'flex d-flex justify-content-end text-dark font-weight-light pr-4 pt-1';
+    dateElement.classList = 'flex d-flex justify-content-end text-dark font-weight-light pt-1';
     navBar.appendChild(dateElement);
 } )();
 
