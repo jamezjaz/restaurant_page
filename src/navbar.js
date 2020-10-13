@@ -10,7 +10,7 @@ const navBar = (() =>{
     const about = document.createElement('li');
     const contact = document.createElement('li');
   
-    navList.classList = 'bg-secondary flex d-flex';
+    navList.classList = 'list bg-secondary flex d-flex';
     navList.style.listStyle = 'none';
     logo.setAttribute('id', 'logo');
     home.setAttribute('id', 'home');

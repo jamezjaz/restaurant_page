@@ -8,6 +8,20 @@ nav {
   top: 0;
 }
 
+#home a,
+#menu a,
+#about a,
+#contact a {
+  color: black;
+}
+
+#home a:hover,
+#menu a:hover,
+#about a:hover,
+#contact a:hover {
+  color: burlywood;
+}
+
 .bgimage {
   background-image: url('/images/bg-image.jpg');
   background-repeat: no-repeat;
