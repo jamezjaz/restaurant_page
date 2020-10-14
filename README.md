@@ -32,7 +32,7 @@ This is a restaurant page built using Webpack and JavaScript ES6. The website co
 - Webpack
 
 ## Live Version
-- The project is deployed on netlify [here](https://elated-bassi-162bd5.netlify.app/)
+- The project is deployed on netlify [here](https://rawcdn.githack.com/jamezjaz/restaurant_page/536096676c83fb6b1258eb4708d1a65d4aa0fd1a/dist/index.html#)
 
 ## Installation
 Follow the steps below to test the project locally. First ensure you have a version of [Node.js](http://nodejs.org/) equal or greater than v6.10.0 installed.
