@@ -8,7 +8,7 @@ const aboutUs = (() => {
     document.querySelector('.main-menu').style.display = 'none';
     document.querySelector('.contact-form').style.display = 'none';
     document.querySelector('.about').style.display = 'block';
-  aboutMsg.innerHTML = `
+    aboutMsg.innerHTML = `
                         <div>
                             <h3 class="text-center">About Us</h3>
                             <p>

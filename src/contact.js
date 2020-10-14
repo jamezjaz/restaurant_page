@@ -1,14 +1,14 @@
 const contactMe = (() => {
-    const contact = document.querySelector('#contact');
-    const contactCon = document.querySelector('#contact-me');
-    const contactForm = document.createElement('div');
-    contact.addEventListener('click', () => {
-      document.querySelector('.home').style.display = 'none';
-      document.querySelector('.main-menu').style.display = 'none';
-      document.querySelector('.contact-form').style.display = 'block';
-      document.querySelector('.about').style.display = 'none';
-      contactForm.classList.add('form');
-      contactForm.innerHTML = `
+  const contact = document.querySelector('#contact');
+  const contactCon = document.querySelector('#contact-me');
+  const contactForm = document.createElement('div');
+  contact.addEventListener('click', () => {
+    document.querySelector('.home').style.display = 'none';
+    document.querySelector('.main-menu').style.display = 'none';
+    document.querySelector('.contact-form').style.display = 'block';
+    document.querySelector('.about').style.display = 'none';
+    contactForm.classList.add('form');
+    contactForm.innerHTML = `
                               <div>
                                 <div class="text-center">
                                     <h3>Give us a try, you'll never regret you did...</h3>
@@ -37,8 +37,8 @@ const contactMe = (() => {
                                 </form>
                               </div>
                               `;
-    });
-    contactCon.appendChild(contactForm);
-  })();
-  
-  export default contactMe;
+  });
+  contactCon.appendChild(contactForm);
+})();
+
+export default contactMe;
