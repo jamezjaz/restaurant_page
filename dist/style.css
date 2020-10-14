@@ -29,14 +29,14 @@ nav {
 }
 
 .bgimage {
-  background-image: url('/images/bg-image.jpg');
+  background-image: url('../images/bg-image.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   height: 50rem;
 }
 
 .menu {
-  background-image: url('/images/bg-image2.png');
+  background-image: url('../images/bg-image2.png');
   background-repeat: no-repeat;
   background-size: cover;
 }
