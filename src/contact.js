@@ -1,15 +1,12 @@
-const contactMe = (() =>{
+const contactMe = (() => {
     const contact = document.querySelector('#contact');
     const contactCon = document.querySelector('#contact-me');
     const contactForm = document.createElement('div');
-    const home = document.querySelector('.home');
-    const menu = document.querySelector('.main-menu');
-    const about = document.querySelector('.about');
-  
     contact.addEventListener('click', () => {
-      home.style.display = 'none';
-      menu.style.display = 'none';
-      about.style.display = 'none';
+      document.querySelector('.home').style.display = 'none';
+      document.querySelector('.main-menu').style.display = 'none';
+      document.querySelector('.contact-form').style.display = 'block';
+      document.querySelector('.about').style.display = 'none';
       contactForm.classList.add('form');
       contactForm.innerHTML = `
                               <div>
@@ -40,8 +37,8 @@ const contactMe = (() =>{
                                 </form>
                               </div>
                               `;
-    })
+    });
     contactCon.appendChild(contactForm);
-  } )();
+  })();
   
   export default contactMe;

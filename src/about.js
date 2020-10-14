@@ -1,16 +1,13 @@
-const aboutUs = (() =>{
+const aboutUs = (() => {
   const about = document.querySelector('#about');
   const aboutInfo = document.querySelector('#about-info');
   const aboutMsg = document.createElement('div');
-  const home = document.querySelector('.home');
-  const menu = document.querySelector('.main-menu');
-//   const contact = document.querySelector('.contact-form');
-
   about.addEventListener('click', () => {
     aboutMsg.classList.add('about-msg');
-    home.style.display = 'none';
-    menu.style.display = 'none';
-    // contact.style.display = 'none';
+    document.querySelector('.home').style.display = 'none';
+    document.querySelector('.main-menu').style.display = 'none';
+    document.querySelector('.contact-form').style.display = 'none';
+    document.querySelector('.about').style.display = 'block';
   aboutMsg.innerHTML = `
                         <div>
                             <h3 class="text-center">About Us</h3>
@@ -69,8 +66,8 @@ const aboutUs = (() =>{
                             </p>
                         </div>
                         `;
-  })
+  });
   aboutInfo.appendChild(aboutMsg);
-} )();
+})();
 
 export default aboutUs;
