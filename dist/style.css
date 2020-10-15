@@ -14,17 +14,11 @@ nav {
   top: 0;
 }
 
-#home a,
-#menu a,
-#about a,
-#contact a {
+.navbar-brand {
   color: black;
 }
 
-#home a:hover,
-#menu a:hover,
-#about a:hover,
-#contact a:hover {
+.navbar-brand:hover {
   color: burlywood;
 }
 

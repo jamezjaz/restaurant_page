@@ -4,7 +4,9 @@
   "description": "This is a restaurant landing page",
   "main": "index.js",
   "scripts": {
-    "test": "\"\""
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --mode development --open"
   },
   "repository": {
     "type": "git",

@@ -1,3 +1,5 @@
+/* eslint-disable no-unused-vars */
+
 import navBar from './navbar';
 import footer from './footer';
 import menu from './menu';
