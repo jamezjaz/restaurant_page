@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+#content {
+  max-width: 1310px; 
+  margin: 0 auto;
+}
+
+nav {
+  position: sticky;
+  top: 0;
+}
+
+.navbar-brand {
+  color: black;
+}
+
+.navbar-brand:hover {
+  color: burlywood;
+}
+
+.bgimage {
+  background-image: url('../images/bg-image.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50rem;
+}
+
+.menu {
+  background-image: url('../images/bg-image2.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.mainmenu {
+  background-image: url('https://previews.123rf.com/images/gbh007/gbh0071310/gbh007131000014/22648786-grilled-chicken-legs-on-white-background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.about-msg {
+  padding: 0 15rem;
+}
+
+.form {
+  padding: 2rem 18rem;
+}
